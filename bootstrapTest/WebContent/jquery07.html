@@ -4,22 +4,23 @@
 <meta charset="UTF-8">
 <title>제이쿼리 07</title>
 <style>
-	body{
-		background-color:#eef;
-	}
-	
-	div{
-		padding:20px;
-	}
+body {
+	background-color: #eef;
+}
+
+div {
+	padding: 20px;
+}
 </style>
 <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-	<div id="log"></div>
+	<div id="log">
 	<script>
 		$(document).mousemove(function(e){
-			$$("#log").text("e.pageX: "+e.pageX+", e.pageY : "+e.pageY);
+			$("#log").text("e.pageX: "+e.pageX+", e.pageY : "+e.pageY);
 		});
 	</script>
+	</div>
 </body>
 </html>
